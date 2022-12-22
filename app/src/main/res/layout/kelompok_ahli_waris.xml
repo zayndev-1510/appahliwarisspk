@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_border"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Kelompok Ahli Waris"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_border"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Kelompok Ahli Waris Dalam Islam Dibagi Menjadi 3 Bagian Sebagai Berikut"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_border"
+                android:padding="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:text="1. Zawil Furudh adalah kelompok ahli waris yang menerima bagian tertentu. Besarnya bagian yang diterima ditentukan dalam Alquran dan hadist.
+Yang termasuk ke dalam kelompok zawil furudh adalah ahli waris perempuan dan laki-laki. Ada enam pembagian yang ditentukan, yaitu ½, ¼, 1/8, 1/3, 2/3, dan 1/6. Adapun ahli waris laki-laki dan perempuan. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_border"
+                android:padding="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:text="2. Ashabah adalah kelompok yang menerima sisa pembagian ashab al-furuiid. Ahli waris ini tidak ditentukan bagiannya, melainkan menghabiskan sisa harta. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+            <TextView
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_border"
+                android:padding="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:text="3. Zawil arham adalah kelompok yang tidak menerima bagian kecuali tidak ada ashab al-furuiid dan ashabah. Ahli waris ini punya kedekatan kekerabatan. Contohnya cucu perempuan dari anak perempuan dan kakek dari garis ibu. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent">
+                <ImageView
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/cornet_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="ContentDescription" />
+            </RelativeLayout>
+            <TextView
+                android:text="Ayo Gabung"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:padding="10dp"
+                android:text="Silakan Masuk Dengan Akun Yang Telah Didaftarkan untuk Mengakses Aplikasi"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#AAA"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:textSize="17sp"
+                    android:drawableStart="@drawable/icon_email"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_500"
+                    android:fontFamily="@font/poppins_medium"
+                    android:hint="Masukan Email"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText"
+                    android:background="@drawable/btn_border"
+                    tools:targetApi="m"
+                    android:layout_marginBottom="10dp"
+                    android:importantForAutofill="no" />
+                <EditText
+                    android:textSize="17sp"
+                    android:drawableStart="@drawable/icon_sandi"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/purple_500"
+                    android:fontFamily="@font/poppins_medium"
+                    android:hint="Masukan Sandi"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText"
+                    android:background="@drawable/btn_border"
+                    tools:targetApi="m"
+                    android:importantForAutofill="no" />
+                <TextView
+                    android:padding="10dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="bold"
+                    android:text="Masuk"
+                    android:textSize="20sp"
+                    android:background="@drawable/btn_border"
+                    android:textAlignment="center"
+                    android:backgroundTint="#E61A5F"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="Atau"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#AAA"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+                <RelativeLayout
+                    android:id="@+id/button_google"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_marginStart="40dp"
+                        android:src="@drawable/icon_google"
+                        android:layout_width="30dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:padding="10dp"
+                        android:text="Masuk Dengan Akun Google"
+                        android:textAlignment="center"
+                        android:textColor="#AAA"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

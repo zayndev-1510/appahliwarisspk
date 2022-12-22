@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<ScrollView
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="@font/poppins_medium"
+            android:text="Syarat Warisan Islam"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <View
+            android:background="@color/whitesmoke"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+        <TextView
+            android:textSize="15sp"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Dalam hukum waris Islam bersumber dari Dr. Musthafa Al-Khin dalam kitabnya menyebutkan bahwa terdapat empat syarat utama yang harus dipenuhi sebelum melakukan pembagian warisan, di antaranya adalah sebagai berikut."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            tools:targetApi="o" />
+        <TextView
+            android:padding="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:text="1. Orang yang mewariskan harta benar-benar telah meninggal dunia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <TextView
+            android:padding="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:text="2. Ahli waris yang akan mendapat warisan benar-benar hidup, meskipun masa hidupnya hanya sebentar saja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <TextView
+            android:padding="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:text="3. Diketahui dengan jelas hubungan ahli waris dengan si mayit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+        <TextView
+            android:padding="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:text="4. Satu alasan yang menetapkan seseorang bisa mendapatkan warisan secara rinci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+    </LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

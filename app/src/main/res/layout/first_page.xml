@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Helloworl"
+    android:id="@+id/container_pewaris"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linear_jumlah_harta"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/jumlah_harta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="0"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:importantForAutofill="no"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_pilih_pewaris"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+       <TextView
+           android:text="Laki-Laki"
+           android:textSize="25sp"
+           android:padding="5dp"
+           android:textAlignment="center"
+           android:textColor="@color/white"
+           android:background="@color/purple_500"
+           android:layout_marginStart="10dp"
+           android:layout_marginEnd="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

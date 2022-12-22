@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitCenter"
+                android:src="@drawable/hukum_warisan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="ContentDescription">
+            </ImageView>
+            <TextView
+                android:padding="10dp"
+                android:fontFamily="@font/poppins_medium"
+                android:justificationMode="inter_word"
+                android:text="Hukum waris Islam adalah pengaturan peralihan harta dari seseorang yang telah meninggal kepada ahli waris dan berapa bagian yang diperoleh. Perumusannya tidak lepas dari nilai-nilai Islam dalam Alquran. Yang disebut sebagai waris atau ahli waris adalah orang-orang yang berhak menerima warisan. Sementara muwaris atau pewaris merupakan orang yang meninggal dunia dan harta benda peninggalannya diwariskan.
+Warisan yang dibagikan kepada ahli waris dapat berupa harta bergerak seperti logam mulia serta kendaraan dan harta tidak bergerak seperti tanah serta rumah. Harta tersebut dapat dibagikan kepada ahli waris setelah dikurangi untuk biaya perawatan jenazah, pelunasan utang, dan pelaksanaan wasiat.
+Jadi, buatlah daftar harta dan utang seseorang yang telah meninggal dunia. Jika orang itu meninggalkan utang yang belum dibayar, utang perlu dilunasi terlebih dahulu. Harta peninggalannya dapat dikurangi untuk pelunasan utang tersebut.
+Sementara itu, contoh pelaksanaan wasiat adalah seperti berikut. Seseorang meninggal dunia dan saat hidup ia berwasiat bahwa sebagian dari hartanya diberikan kepada sebuah lembaga. Maka wasiat itu wajib dilaksanakan sebelum harta peninggalannya dibagikan kepada ahli waris.Dalam hukum waris Islam, tidak hanya membahas tentang pembagian harta yang ditinggalkan oleh pewaris. Tetapi juga terdapat aturan terkait peralihan harta yang ditinggalkan oleh pewaris karena meninggal dunia. Dalam peralihan harta dari pewaris ke ahli warisnya, ternyata terdapat tata caranya yaitu melalui cara wasiat.
+
+Berbicara tentang hukum waris Islam yang memang berlandaskan pada ayat-ayat Al-Qur’an, hal-hal tentang wasiat juga ada dalam Al-Qur’an dan juga Hukum Islam Indonesia. Berikut beberapa di antaranya:
+
+Dalam surah Al-Baqarah pada ayat 180, dijelaskan bahwa wasiat merupakan sebuah kewajiban bagi orang-orang yang bertaqwa kepada Allah SWT. Melihat dari gambaran tersebut, pengertian dari wasiat itu sendiri adalah sebuah pernyataan keinginan tentang harta kekayaan milik pewaris setelah meninggal nanti, yang mana hal ini dilakukan sebelum terjadinya kematian.
+Tidak hanya dalam surah Al-Baqarah saja, hal-hal tentang wasiat juga tertera pada surah An-Nisa di ayat 11-12. Dalam ayat surah An-Nisa tersebut, menyatakan bahwa dalam hukum waris Islam kedudukan wasiat sangat penting sehingga harus didahulukan sebelum dilakukannya pembagian harta yang ditinggalkan oleh pewaris kepada para ahli warisnya.
+Hukum waris Islam PDF di Indonesia juga diatur dalam KHI (Kompilasi Hukum Islam) sesuai dalam Instruksi Presiden Nomor 1 Tahun 1991. Dimana KHI merupakan sebuah Peraturan Perundang-undangan yang menyangkut hal-hal Perwakafan, Perkawinan, termasuk juga hal-hal Pewarisan. KHI sendiri berlandaskan pada Al-Qur’an dan hadis Rasulullah, yang mana akan digunakan secara khusus oleh Pengadilan Agama untuk menjalankan tugasnya dalam menangani permasalahan keluarga masyarakat Islam di Indonesia."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

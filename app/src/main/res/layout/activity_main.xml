@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    tools:context=".HitungWaris">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_border"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linear_bottom"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/ket_pewaris"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="Harta Warisan"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+            <LinearLayout
+                android:id="@+id/linear_harta_warisan"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textAlignment="textStart"
+                    android:text="Jumlah Harta"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+                <EditText
+                    android:id="@+id/jumlah_harta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="0"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textAlignment="textStart"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:importantForAutofill="no"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textAlignment="textStart"
+                    android:text="Hutang"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+                <EditText
+                    android:id="@+id/jumlah_biaya_utang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="0"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textAlignment="textStart"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:importantForAutofill="no"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textAlignment="textStart"
+                    android:text="Biayar Jenazah"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+                <EditText
+                    android:id="@+id/jumlah_biaya_jenazah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:hint="0"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textAlignment="textStart"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:importantForAutofill="no"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_marginTop="50dp"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    android:textAlignment="center"
+                    android:text="Harta Siap Dibagi"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/harta_dibagi"
+                    android:padding="10dp"
+                    android:textSize="22sp"
+                    android:textAlignment="center"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_jk"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/btn_jk_l"
+                    android:text="Laki-Laki"
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:background="@drawable/btn_border"
+                    android:textSize="20sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/btn_jk_p"
+                    android:text="Perempuan"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:background="@drawable/btn_border"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:id="@+id/loadPewaris"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:id="@+id/loadTerhalang"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/back"
+            android:text="Kembali"
+            android:layout_weight="1"
+            android:background="@drawable/btn_back"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/next"
+            android:text="Lanjut"
+            android:layout_weight="1"
+            android:background="@drawable/btn_back"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:backgroundTint="@color/purple_500"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
