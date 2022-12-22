@@ -1,6 +1,6 @@
 Aplikasi Mobile Sistem Pakar Menentukan Ahli Waris.
 
-- Bahasa Pemograman Yang DiPakai Kotlin.
+- Bahasa Pemograman Yang DiPakai Adalah Java.
 - Teknologi Yang Dipakai Firebase.
 - Fitur Dalam Aplikasi Antara Lain  Sebagai Berikut
 1. Informasi Hukum Waris
